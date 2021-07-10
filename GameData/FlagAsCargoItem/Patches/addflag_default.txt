@@ -1,0 +1,11 @@
+@PART[*]:HAS[@MODULE[ModuleCommand],@MODULE[ModuleInventoryPart]]:FINAL
+{
+    @MODULE[ModuleInventoryPart]
+    {
+        @DEFAULTPARTS
+        {
+            !name = deleteall
+            name = evaFlag
+        }
+    }
+}
