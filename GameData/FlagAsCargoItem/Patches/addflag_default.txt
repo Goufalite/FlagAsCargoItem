@@ -1,3 +1,4 @@
+// shoud add flags by default to command pods but it's not working, help wanted ;)
 @PART[*]:HAS[@MODULE[ModuleCommand],@MODULE[ModuleInventoryPart]]:FINAL
 {
     @MODULE[ModuleInventoryPart]

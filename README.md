@@ -7,17 +7,15 @@ Receive funds.
 
 No more!
 
-When I first saw [the 1.11 trailer](https://youtu.be/D3WXW7kwCyI?t=27) I thought to myself "Finally, no more infinite flags!" but I was wrong...
-
-I then [asked on reddit](https://www.reddit.com/r/KerbalSpaceProgram/comments/ka1izn/with_111_do_you_think_flags_couldshould_be_finite/) if people would like to see flags as a cargo item and with 86 voters I had a score of... perfect 50/50!
-
+When I first saw [the 1.11 trailer](https://youtu.be/D3WXW7kwCyI?t=27) I thought to myself "Finally, no more infinite flags!" but I was wrong... 
+I then [asked on reddit](https://www.reddit.com/r/KerbalSpaceProgram/comments/ka1izn/with_111_do_you_think_flags_couldshould_be_finite/) if people would like to see flags as a cargo item and with 86 voters I had a score of... perfect 50/50! 
 I also asked if somebody knew a mod capable of doing this, nobody answered. Therefore…
 
 **Introducing Flag As Cargo Item!**
 
 Flags are now stackable cargo items! **Don’t forget to store them in your ship** in order to plant this glorious 1 meter stick with cloth.
 
-(The description comes from redditor [Anameonreddit](https://www.reddit.com/user/Anameonreddit/) which commented my poll)
+(The description comes from redditor [Anameonreddit](https://www.reddit.com/r/KerbalSpaceProgram/comments/ka1izn/with_111_do_you_think_flags_couldshould_be_finite/gf9ntet?utm_source=share&utm_medium=web2x&context=3) which commented my poll)
 
 You can even craft them with ore with my other mod [Ore To Parts](https://forum.kerbalspaceprogram.com/index.php?/topic/203705-11121121ore-to-parts-craft-parts-with-ore-duplicate-parts/)!
 
@@ -27,7 +25,7 @@ You can even craft them with ore with my other mod [Ore To Parts](https://forum.
 
 ## Instructions 
 
-Remove previous versions. Unzip into the GameData folder of your KSP installation, your folder should look like GameData/FlagAsCargoItem
+Remove previous versions. Unzip into the GameData folder of your KSP installation, your folder should look like `GameData/FlagAsCargoItem`
 
 ## Mods Supported
 
@@ -51,7 +49,7 @@ Please provide a KSP.log file in order for me to help you. Also please tell if y
 
 ## Known issues!
 
-* If you have an engineer trying to “construct” the flag, you’ll see a dull cylinder smashing explosively on the ground! => The 1.12 changelog says "Decreased a height error check from 0.2m to 0.1m, in order to support smaller parts, and preventing them to sink into the ground.". Although the flag is 0.7m this might be the cause. Sorry.
+* If you have an engineer trying to "construct" the flag, you’ll see a dull cylinder smashing explosively on the ground! => The 1.12 changelog says *Decreased a height error check from 0.2m to 0.1m, in order to support smaller parts, and preventing them to sink into the ground.*. Although the flag is 0.7m this might be the cause. Sorry.
 
 ## Changelog
 ### 0.1.0.0
