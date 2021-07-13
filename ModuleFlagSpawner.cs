@@ -14,7 +14,7 @@ namespace FlagAsCargoItem
             base.OnAwake();
         }
 
-        [KSPEvent(guiName = "#flagascargoitem_spawnflag", guiActiveEditor = false, guiActive = true, externalToEVAOnly = true, guiActiveUnfocused = true, groupName = "craftParts", groupDisplayName = "#oretotanks_groupname")]
+        [KSPEvent(guiName = "#flagascargoitem_spawnflag", guiActiveEditor = false, guiActive = true, externalToEVAOnly = true, guiActiveUnfocused = true)]
         public void SpawnFlag()
         {
             var inventory = part.Modules.OfType<ModuleInventoryPart>().SingleOrDefault();

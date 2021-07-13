@@ -41,8 +41,6 @@ Github : https://github.com/Goufalite/FlagAsCargoItem
 
 Issues : https://github.com/Goufalite/FlagAsCargoItem/issues
 
-Latest release for 1.12.1+ (**warning, NOT compatible with 1.11.2**) : https://github.com/Goufalite/FlagAsCargoItem/releases
-
 Release 1.11.2 : 
 
 Please provide a KSP.log file in order for me to help you. Also please tell if you have the expansions installed.
