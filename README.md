@@ -41,7 +41,9 @@ Github : https://github.com/Goufalite/FlagAsCargoItem
 
 Issues : https://github.com/Goufalite/FlagAsCargoItem/issues
 
-Release 1.11.2 : 
+Latest releases for 1.12.1+ (**Warning: NOT compatible with 1.11.2**) : https://github.com/Goufalite/FlagAsCargoItem/releases
+
+Release for 1.11.2+ : https://github.com/Goufalite/FlagAsCargoItem/releases/tag/v0.1.0.0
 
 Please provide a KSP.log file in order for me to help you. Also please tell if you have the expansions installed.
 
@@ -50,6 +52,11 @@ Please provide a KSP.log file in order for me to help you. Also please tell if y
 * If you have an engineer trying to "construct" the flag, you’ll see a dull cylinder smashing explosively on the ground! => The 1.12 changelog says *Decreased a height error check from 0.2m to 0.1m, in order to support smaller parts, and preventing them to sink into the ground.*. Although the flag is 0.7m this might be the cause. Sorry.
 
 ## Changelog
+
+### 0.2.0.0
+* WARNING NOT COMPATIBLE WITH 1.11.2
+* Added inventory mass/volume limit cheat introduced in 1.12
+
 ### 0.1.0.0
 * Initial release.
 * Added a new part: the A1 deployable flag as a cargo item.

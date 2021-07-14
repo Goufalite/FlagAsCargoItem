@@ -66,8 +66,9 @@ namespace FlagAsCargoItem
                 // for some reason the kerbal doesn't have an inventory... continue as normal
                 return true;
             }
-            //if (!CheatOptions.IgnoreKerbalInventoryLimits)
-            //{
+            
+            if (!CheatOptions.IgnoreKerbalInventoryLimits)
+            {
 
                 if (inventory.HasMassLimit && inventory.massCapacity + PartMass(KerbalEVAPatch.EVA_FLAG) > inventory.massLimit + 0.00001f)
                 {
@@ -79,7 +80,7 @@ namespace FlagAsCargoItem
                     ScreenMessages.PostScreenMessage(Localizer.Format("#flagascargoitem_cannotstoreflag_volume"), 2.0f, ScreenMessageStyle.UPPER_CENTER);
                     return false;
                 }
-            //}
+            }
 
             bool succes = RealStoreCargoPartAtSlot(myKerbal.ModuleInventoryPartReference, KerbalEVAPatch.EVA_FLAG, -1);
             if (!succes)
